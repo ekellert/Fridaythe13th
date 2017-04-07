@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.fridaythe13th.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/coding"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/above_text"
+        android:textSize="33sp"
+        android:layout_centerHorizontal="true"
+        android:padding="24dp"
+        android:textColor="#F8F8FF"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/below_text"
+        android:layout_centerHorizontal="true"
+        android:textSize="34sp"
+        android:textColor="#F8F8FF"
+        android:textStyle="bold"
+        android:paddingBottom="178dp"
+        android:layout_alignParentBottom="true"
+                />
+
+</RelativeLayout>
